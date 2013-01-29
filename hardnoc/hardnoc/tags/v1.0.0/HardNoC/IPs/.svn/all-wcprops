@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/hardnoc/!svn/ver/14/tags/v1.0.0/HardNoC/IPs
+END
+Serial.vhd
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/hardnoc/!svn/ver/14/tags/v1.0.0/HardNoC/IPs/Serial.vhd
+END
+SerialInterface.vhd
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/hardnoc/!svn/ver/14/tags/v1.0.0/HardNoC/IPs/SerialInterface.vhd
+END
+Tester.vhd
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/hardnoc/!svn/ver/14/tags/v1.0.0/HardNoC/IPs/Tester.vhd
+END

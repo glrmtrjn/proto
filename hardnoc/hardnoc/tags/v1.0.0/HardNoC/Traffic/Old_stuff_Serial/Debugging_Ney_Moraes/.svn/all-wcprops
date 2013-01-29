@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/hardnoc/!svn/ver/14/tags/v1.0.0/HardNoC/Traffic/Old_stuff_Serial/Debugging_Ney_Moraes
+END
+write_flit_to_IP12.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/hardnoc/!svn/ver/14/tags/v1.0.0/HardNoC/Traffic/Old_stuff_Serial/Debugging_Ney_Moraes/write_flit_to_IP12.txt
+END
+debug12_bis.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/hardnoc/!svn/ver/14/tags/v1.0.0/HardNoC/Traffic/Old_stuff_Serial/Debugging_Ney_Moraes/debug12_bis.txt
+END
+read_flit_from_IP12.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/hardnoc/!svn/ver/14/tags/v1.0.0/HardNoC/Traffic/Old_stuff_Serial/Debugging_Ney_Moraes/read_flit_from_IP12.txt
+END

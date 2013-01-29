@@ -1,0 +1,227 @@
+# do simulateHardNoC.do 
+# Copying C:\modeltech_6.4\win32/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\modeltech_6.4\win32/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# Modifying modelsim.ini
+# Model Technology ModelSim SE vcom 6.4 Compiler 2008.06 Jun 18 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling package hermespackage
+# -- Compiling package body hermespackage
+# -- Loading package hermespackage
+# Model Technology ModelSim SE vcom 6.4 Compiler 2008.06 Jun 18 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package hermespackage
+# -- Compiling entity hermes_buffer
+# -- Compiling architecture hermes_buffer of hermes_buffer
+# Model Technology ModelSim SE vcom 6.4 Compiler 2008.06 Jun 18 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package hermespackage
+# -- Compiling entity hermes_inport
+# -- Compiling architecture hermes_inport of hermes_inport
+# -- Loading entity hermes_buffer
+# Model Technology ModelSim SE vcom 6.4 Compiler 2008.06 Jun 18 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package hermespackage
+# -- Compiling entity hermes_switchcontrol
+# -- Compiling architecture hermes_switchcontrol of hermes_switchcontrol
+# Model Technology ModelSim SE vcom 6.4 Compiler 2008.06 Jun 18 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package hermespackage
+# -- Compiling entity hermes_outport
+# -- Compiling architecture hermes_outport_local of hermes_outport
+# -- Compiling architecture hermes_outport_east of hermes_outport
+# -- Loading entity hermes_outport
+# -- Compiling architecture hermes_outport_west of hermes_outport
+# -- Loading entity hermes_outport
+# -- Compiling architecture hermes_outport_north of hermes_outport
+# -- Loading entity hermes_outport
+# -- Compiling architecture hermes_outport_south of hermes_outport
+# -- Loading entity hermes_outport
+# Model Technology ModelSim SE vcom 6.4 Compiler 2008.06 Jun 18 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package hermespackage
+# -- Compiling entity routerbl
+# -- Compiling architecture routerbl of routerbl
+# -- Loading entity hermes_inport
+# -- Loading entity hermes_switchcontrol
+# -- Loading entity hermes_outport
+# Model Technology ModelSim SE vcom 6.4 Compiler 2008.06 Jun 18 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package hermespackage
+# -- Compiling entity routerbr
+# -- Compiling architecture routerbr of routerbr
+# -- Loading entity hermes_inport
+# -- Loading entity hermes_switchcontrol
+# -- Loading entity hermes_outport
+# Model Technology ModelSim SE vcom 6.4 Compiler 2008.06 Jun 18 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package hermespackage
+# -- Compiling entity routercl
+# -- Compiling architecture routercl of routercl
+# -- Loading entity hermes_inport
+# -- Loading entity hermes_switchcontrol
+# -- Loading entity hermes_outport
+# Model Technology ModelSim SE vcom 6.4 Compiler 2008.06 Jun 18 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package hermespackage
+# -- Compiling entity routercr
+# -- Compiling architecture routercr of routercr
+# -- Loading entity hermes_inport
+# -- Loading entity hermes_switchcontrol
+# -- Loading entity hermes_outport
+# Model Technology ModelSim SE vcom 6.4 Compiler 2008.06 Jun 18 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package hermespackage
+# -- Compiling entity routertl
+# -- Compiling architecture routertl of routertl
+# -- Loading entity hermes_inport
+# -- Loading entity hermes_switchcontrol
+# -- Loading entity hermes_outport
+# Model Technology ModelSim SE vcom 6.4 Compiler 2008.06 Jun 18 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package hermespackage
+# -- Compiling entity routertr
+# -- Compiling architecture routertr of routertr
+# -- Loading entity hermes_inport
+# -- Loading entity hermes_switchcontrol
+# -- Loading entity hermes_outport
+# Model Technology ModelSim SE vcom 6.4 Compiler 2008.06 Jun 18 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package hermespackage
+# -- Compiling entity noc
+# -- Compiling architecture noc of noc
+# -- Loading entity routerbl
+# -- Loading entity routerbr
+# -- Loading entity routercl
+# -- Loading entity routercr
+# -- Loading entity routertl
+# -- Loading entity routertr
+# Model Technology ModelSim SE vcom 6.4 Compiler 2008.06 Jun 18 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity serialinterface
+# -- Compiling architecture serialinterface of serialinterface
+# Model Technology ModelSim SE vcom 6.4 Compiler 2008.06 Jun 18 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package hermespackage
+# -- Compiling entity serial
+# -- Compiling architecture serial of serial
+# -- Loading entity serialinterface
+# Model Technology ModelSim SE vcom 6.4 Compiler 2008.06 Jun 18 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package hermespackage
+# -- Loading package vcomponents
+# -- Compiling entity tester
+# -- Compiling architecture tester of tester
+# Model Technology ModelSim SE vcom 6.4 Compiler 2008.06 Jun 18 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package vcomponents
+# -- Compiling entity my_dcm
+# -- Compiling architecture my_dcm of my_dcm
+# Model Technology ModelSim SE vcom 6.4 Compiler 2008.06 Jun 18 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package hermespackage
+# -- Compiling entity hardnoc
+# -- Compiling architecture hardnoc of hardnoc
+# -- Loading package vcomponents
+# -- Loading entity my_dcm
+# -- Loading entity noc
+# -- Loading entity serial
+# -- Loading entity tester
+# Model Technology ModelSim SE vcom 6.4 Compiler 2008.06 Jun 18 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package textio
+# -- Loading package std_logic_unsigned
+# -- Loading package hermespackage
+# -- Compiling entity hardnoc_tb
+# -- Compiling architecture hardnoc_tb of hardnoc_tb
+# -- Loading entity hardnoc
+# vsim -t ps work.HardNoC_TB 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: [1] Dcm.vhd(94): (vopt-3473) Component instance "inst_dcm : dcm" is not bound.
+# ** Warning: [1] IPs/Tester.vhd(96): (vopt-3473) Component instance "ram0 : ramb16_s9" is not bound.
+# ** Warning: [1] IPs/Tester.vhd(99): (vopt-3473) Component instance "ram1 : ramb16_s9" is not bound.
+# ** Warning: [1] IPs/Tester.vhd(96): (vopt-3473) Component instance "ram0 : ramb16_s9" is not bound.
+# ** Warning: [1] IPs/Tester.vhd(99): (vopt-3473) Component instance "ram1 : ramb16_s9" is not bound.
+# ** Warning: [1] IPs/Tester.vhd(96): (vopt-3473) Component instance "ram0 : ramb16_s9" is not bound.
+# ** Warning: [1] IPs/Tester.vhd(99): (vopt-3473) Component instance "ram1 : ramb16_s9" is not bound.
+# ** Warning: [1] IPs/Tester.vhd(96): (vopt-3473) Component instance "ram0 : ramb16_s9" is not bound.
+# ** Warning: [1] IPs/Tester.vhd(99): (vopt-3473) Component instance "ram1 : ramb16_s9" is not bound.
+# ** Warning: [1] IPs/Tester.vhd(96): (vopt-3473) Component instance "ram0 : ramb16_s9" is not bound.
+# ** Warning: [1] IPs/Tester.vhd(99): (vopt-3473) Component instance "ram1 : ramb16_s9" is not bound.
+# //  ModelSim SE 6.4 Jun 18 2008 
+# //
+# //  Copyright 1991-2008 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading std.textio(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.hermespackage(body)
+# Loading work.hardnoc_tb(hardnoc_tb)#1
+# Loading unisim.vcomponents
+# Loading work.hardnoc(hardnoc)#1
+# ** Error: (vsim-13) Recompile unisim.dcm because std.textio has changed.
+# ** Error: (vsim-12) Recompile work.my_dcm(my_dcm) after unisim.dcm is recompiled.
+# Load interrupted
+# Error loading design

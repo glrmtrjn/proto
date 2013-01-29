@@ -1,0 +1,112 @@
+<html><head><title>SerialApp</title></head>
+<body>
+
+<center>
+<font size="5">
+<b>SerialApp</b>
+</font>
+</span>
+</center>
+<br>
+
+The main function of this program is to provide access to the serial interface of a
+host computer, typically, but not necessarily an IBM-PC compatible. SerialApp has several functions to simplify
+the use of the serial interface. Among these are the possibility to load user files
+and to send these automatically through the serial interface to a hardware
+client and save received and edited data. It
+can also save the last configurations in the file config.cfg, and allows up
+to 4 independent terminals to enter and display specific data coming from the
+hardware serial interface, providing the possibility to separately interact
+with distinct pieces of hardware through a single serial interface. <br>
+
+The access to the serial interface can be configured with the following parameters:
+byte size, stop bits, baud rate, parity and COM port.<br>
+
+<br>
+
+
+<u><a href="http://www.inf.pucrs.br/~gaph/Projects/RS-232%20Compatible%20Serial%20Interface%20with%20Autobaud/public/Serial%20host%20computer%20software/1.0/SerialSoftware.zip">Click here to download the SerialApp</a></u><br>
+
+<br>
+
+<u>The required environment to run this program includes to have installed:</u><br>
+<li><a href="http://wwws.sun.com/software/download/">JDK V1.2.2 or superior</a><br>
+<li><a href="http://java.sun.com/products/javacomm/downloads/index.html">javax.comm API (Java Communication API)</a><br>
+
+<br>
+
+<u>javax.comm API (Java Communication API) installation Tips:</u><br>
+<li>uninstall the javax.comm API</li>
+<li>we suggest to place the generated commapi folder inside your java folder (our java folder is c:\j2sdk1.4.2_03)</li>
+<li>copy the following files: win32com.dll, javax.comm.properties and comm.jar</li>
+<li>paste in the following folders inside your java folder: jre\bin, jre\lib, bin and lib</li>
+<li>execute under DOS prompt: set CLASSPATH=c:\j2sdk1.4.2_03\commapi\samples\Blackbox\BlackBox.jar;%CLASSPATH%</li>
+<li>execute under DOS prompt: set CLASSPATH=c:\j2sdk1.4.2_03\lib\comm.jar;%classpath%</li>
+<li>execute under DOS prompt: set path=c:\j2sdk1.4.2_03\bin</li>
+<li>execute under DOS prompt: cd c:\j2sdk1.4.2_03\commapi\samples\Blackbox</li>
+<li>execute under DOS prompt: javac *.java</li>
+<li>execute under DOS prompt: java BlackBox</li><br>
+If an example program opens, the installation has been completed successfully.
+
+<br>
+<br>
+
+<u>Executing the SerialApp:</u><br>
+The first time you execute the SerialApp you need to set the correct path of your Java folder in the serial.bat file. After that, you can execute the SerialApp by just executing the serial.bat file.
+
+<br>
+<br>
+
+<u>Keyboard shortcuts:</u><br>
+F1: call this help<br>
+CTRL + O: open a file in the transmitter window<br>
+CTRL + R: clear the receiver window<br>
+CTRL + T: clear the transmitter window<br>
+CTRL + C: connect the serial interface<br>
+CTRL + D: close the serial interface connection<br>
+CTRL + K: configure the parameters to access the serial interface<br>
+CTRL + S: send the text of the transmitter window through the serial interface<br>
+<br>
+
+<u>Terminal configurations:</u><br>
+SerialApp is prepared to receive input and output commands as "printf" and "scanf" from
+specified processing elements of the system running on a remote hardware,
+typically configured in an FPGA prototyping board. To do so, it is necessary
+to configure the file processor.cfg, that must be in the current user directory. Each line of processor.cfg
+file must have:&nbsp; the ADDRESS of the processing element that sends a message (an IP core) and a NAME
+for this IP core. The two parameters must be separated by a blank space. An example of processor.cfg file is showed
+bellow: <br><br>
+<font face="courier new">
+10 processor1<br>
+11 processor2<br>
+</font>
+<br>
+
+where 10 and 11 are the addresses of the IP cores and "processor1" and "processor2" are the
+names of the cores, respectively. This will create special windows to enter and display data
+from "processor1" and "processor2".<br>
+
+Therefore, when the prototyping board sends the stream data 55 55 55 55 10 03 88 99 as presented in Figure 1, the SerialApp identifies as a terminal event (55 55 55 55), for processor1 (10), printf event (03) with printf data 88 99. When the prototyping board sends the stream data 55 55 55 55 10 04 as presented in Figure 2, the processor1 terminal of the SerialApp waits 2 bytes represented in hexadecimal format from the user input. <br>
+
+<br>
+<center>
+<img src="printf.jpg">
+<br>
+<b>
+Figure 1 - Example of a printf command sent by the prototyping board to the SerialApp running in the host computer.
+</b>
+<br>
+<br>
+<br>
+<img src="scanf.jpg">
+<br>
+<b>
+Figure 2 - Example of a scanf command sent by the prototyping board to the SerialApp running in the host computer.
+</b>
+<br>
+<br>
+<br>
+</center>
+
+<u>Author</u>: Leandro Heleno Möller<br>
+<u>E-mail</u>: moller@inf.pucrs.br</span></body></html>

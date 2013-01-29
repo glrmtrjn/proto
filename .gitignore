@@ -1,0 +1,5 @@
+#ignora a pasta cadence (os arquivos da simulação gerados pelo cadence ficam nela).
+cadence/
+#ignora autosaves
+*~
+.simvision*

@@ -1,0 +1,2 @@
+xtclsh HardNoC.tcl
+exit

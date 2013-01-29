@@ -1,0 +1,6 @@
+
+COM1
+baud4800
+stopBits10
+byteSize8
+parityNo

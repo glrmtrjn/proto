@@ -1,0 +1,8 @@
+ncsc: /soft64/cadence/ferramentas/INCISIV102/tools/systemc/gcc/4.4/bin/g++ -DNCSC -DCADENCE  -DLNX86 -I/soft64/cadence/ferramentas/INCISIV102/tools/systemc/include_pch -o ./INCA_libs/irun.lnx86.10.20.nc/ncsc_run/ncsc_obj/data_gen.o -I/soft64/cadence/ferramentas/INCISIV102/tools/include -I/soft64/cadence/ferramentas/INCISIV102/tools/inca/include -DNCSC -I/soft64/cadence/ferramentas/INCISIV102/tools/systemc/include_pch -I/soft64/cadence/ferramentas/INCISIV102/tools/tbsc/include -I/soft64/cadence/ferramentas/INCISIV102/tools/vic/include -I/soft64/cadence/ferramentas/INCISIV102/tools/ovm/sc/src -I/soft64/cadence/ferramentas/INCISIV102/tools/uvm/uvm_lib/uvm_sc/sc -I/soft64/cadence/ferramentas/INCISIV102/tools/uvm/uvm_lib/uvm_ml/sc -I/soft64/cadence/ferramentas/INCISIV102/tools/systemc/include/tlm2 -c -x c++  -Wall  /home/guilherme.trojan/aes_generico/./src/data_gen.cpp
+/home/guilherme.trojan/aes_generico/./src/data_gen.h:24: warning: ‘data_gen::dStart’ will be initialized after
+/home/guilherme.trojan/aes_generico/./src/data_gen.h:13: warning:   ‘sc_core::sc_in<bool> data_gen::cReady’
+/home/guilherme.trojan/aes_generico/./src/data_gen.h:36: warning:   when initialized here
+/home/guilherme.trojan/aes_generico/./src/data_gen.h:27: warning: ‘data_gen::dInput’ will be initialized after
+/home/guilherme.trojan/aes_generico/./src/data_gen.h:18: warning:   ‘sc_core::sc_in<sc_dt::sc_biguint<128> > data_gen::cOutput’
+/home/guilherme.trojan/aes_generico/./src/data_gen.h:36: warning:   when initialized here
+ncsc: Running scFrontEnd on /home/guilherme.trojan/aes_generico/./src/data_gen.cpp using library work...

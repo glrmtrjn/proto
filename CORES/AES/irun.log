@@ -1,0 +1,70 @@
+irun: 10.20-s071: (c) Copyright 1995-2011 Cadence Design Systems, Inc.
+TOOL:	irun	10.20-s071: Started on Jan 02, 2013 at 23:37:37 BRST
+irun
+	-f file_list.f
+		-smartorder
+		-v93
+		-work work
+		-top test_bench
+		-gui
+		-access +r
+		-sysc
+		/soft64/async/ASCEnD/st65/v0.2/verilog/ASCEnD_ST65GPSVT_behavioral.v
+		/soft64/async/ASCEnD/st65/v0.2/verilog/ASCEnD_ST65GPSVT.v
+		./src/*.vhd
+		./src/*.cpp
+	-s
+Recompiling... reason: file './src/test_bench.vhd' is newer than expected.
+	expected: Wed Jan  2 23:11:02 2013
+	actual:   Wed Jan  2 23:11:35 2013
+./src/test_bench.vhd:
+	errors: 0, warnings: 0
+./src/AES_tb.vhd:
+ncvhdl_p: *W,MULARC: multiple architectures for entity 'VEZES' analyzed in order:
+    VEZES:DOIS
+    VEZES:TRES
+    VEZES:NOVE
+    VEZES:ONZE
+    VEZES:TREZE
+    VEZES:CATORZE.
+WORK.TEST_BENCH:TEST_BENCH (architecture):
+	streams: 4, words: 2951
+ncelab: *W,ARCMRA: Elaborating the WORK.TEST_BENCH:TEST_BENCH, MRA (most recently analyzed) architecture.
+	Elaborating the design hierarchy:
+	   Foreign entity/architecture elaboration: :test_bench(test_bench):gen_check
+	Top level design units:
+		:test_bench(test_bench):
+	Building instance specific data structures.
+	Design hierarchy summary:
+		        Instances  Unique
+		Components:  1375      20
+		Processes:   2787      67
+		Signals:      689      49
+	Writing initial simulation snapshot: WORK.TEST_BENCH:TEST_BENCH
+
+
+ Startin...
+ncsim> 
+ncsim> source /soft64/cadence/ferramentas/INCISIV102/tools/inca/files/ncsimrc
+ncsim> 
+-------------------------------------
+Relinquished control to SimVision...
+# Restoring simulation environment...
+ncsim> input -quiet .reinvoke.sim
+ncsim> file delete .reinvoke.sim
+ncsim> reset
+
+
+ Startin...
+Loaded snapshot work.test_bench:test_bench
+ncsim> run
+Simulation interrupted at 3996800 NS + 0
+ncsim> ^C
+ncsim> exit
+TOOL:	irun	10.20-s071: Exiting on Jan 02, 2013 at 23:38:25 BRST  (total: 00:00:48)
+
+
+ Startin...
+	reset
+
+Testing 1 values per key

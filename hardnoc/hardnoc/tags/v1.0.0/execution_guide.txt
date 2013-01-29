@@ -1,0 +1,28 @@
+HardNoC: Execution guide for Dummies
+
+1 - Enter Serial_software folder
+2 - Edit "serial.bat":
+	2.1 - right button click - edit
+	2.2 - Change the "path" and the "classpath" to the Java Development Kit installed in your computer.
+	2.3 - Save and exit
+3 - Execute "serial.bat"
+	3.1 - Configure the serial port (Serial - Configure)
+		3.1.1 - Select serial port wich connect your computer with the FPGA board
+		3.1.2 - Select Baud Rate to 4800
+		3.1.3 - Byte Size to 8
+		3.1.4 - Parity to "No"
+		3.1.5 - 16 bits processor
+		3.1.6 - Stop Bits to 1,0
+		3.1.7 - Click OK
+	3.2 - Connect with serial
+		3.2.1 - Serial - Connect
+	3.2 - Load input files (File - Open)
+		3.2.1 - On the FPGA board, press "Enter" button (reset)
+		3.2.2 - Select "sync.txt" and click Open
+		3.2.3 - Using subselection button (down arrow next to Send button) select "sync" message
+		3.2.4 - Click "Send"
+		3.2.5 - Using subselection button select "debug01" and click "Send". If appear 32 "00" in Receiver box, the configuration is successful.
+		3.2.6 - Using sibselection button, load all traffics to the HardNoC - number indicate IP destination (after select, click on Send button)
+		3.2.7 - To start the simulation, select "start" message and click on Send button.
+		3.2.8 - To view the traffic, select "debug" message and press Send button - number indicate IP.
+		3.2.9 - To reset the traffic, is necessary reset the FPGA board by "Enter" button.
